@@ -1,0 +1,29 @@
+
+
+/*GUIDES*/
+/*Styling af fotos*/
+.guides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    position: relative;
+    margin: 20px;
+}
+
+/*Styling af knap på fotos*/
+.button{
+    background-color: #F89406;
+    color: #ffffff;
+    width: 218px;
+    height:39px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom:15px;
+}
+
+
+ 
