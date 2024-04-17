@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+
+/*section one: cake images and text*/
+
+
+.cake {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 250%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+
+.item-1 {
+    margin-left: 20%;
+}
+
+.item-2 {
+    margin-right: 20%;
+}
+
+.thin-line {
+    border-bottom: 2px solid #F89406;
+}
+
+/*section 2: ingrediens*/
+
+h2 {
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 1% ;
+}
+
+ul {
+    margin-left: 10%;
+    padding-bottom: 2%;
+    list-style: none;
+
+}
+
+a {
+    padding: 1%
+}
+
+/*Section 3: slik gjør du*/
+
+ol li{
+    margin-left: 10%;
+    padding: 2%;
+
+}
+
+/*section 4: produktlinje*/
+
+p {
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.images {
+    display: flex;
+}
+
+
+

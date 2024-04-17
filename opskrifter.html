@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opskrifter</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/opskrifter.css">
 
     <meta name="description" content="En sund og velsmagende cheesecake til de dage, hvor du trænger til noget sødt">
     <meta name="keywords" content="cheesecake, sund, healthy, dessert, cake, kage">
@@ -12,51 +12,98 @@
 
 <!--indhold-->
 <body>
-<!--overskrift-->
-    <img  src="images/cake-1.webp" alt="nærbillede af en lille cheesecake med hundbær på toppen">
-    <header>
-        <h1>Protein Cheesecake</h1>
-    </header>
 
-    <div> Tid: 2o min</div>
-    <div> Grad: lett</div>
-
-    <hr class="thin-line">
-
-
-<!--Liste med ingredienser-->
-  <h2>Ingredienser</h2>
+<!--navigasjonsbar-->
+<nav class="navbar">
     <ul>
-        <li>200g hytteost</li>
-        <li>1 æg</li>
-        <li>25g wispey vaniljeproteinpulver, eller andet vaniljeproteinpulver</li>
-        <li>70g frosne bær</li>
-        <li>10-12 dråber flydende sødemiddel</li>
+        <li><a herf="#"><img src="images/menu.png" alt="tre vandrette streger oven på hinanden, se burgermenuen" width="20px" height="20px"> </a></li>
+        <li><a href="index.html"><img src="images/logomobile.webp" alt="logo til musclehouse" width="30px" height="40px"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+    </ul>
+    
+    <ul class="burger-bar">
     </ul>
 
-    <hr class="thin-line">
+
+</nav>
+
+<!--overskrift-->
+    <section class="section-1">
+     <div class="cake">
+      <img  src="images/cake-1.webp" alt="nærbillede af en lille cheesecake med hundbær på toppen" width="550px" height="400px">
+     </div>
+        <header>
+          <h1>Protein Cheesecake</h1>
+        </header>
+     <div class="text">
+       <div class="item-1"> Tid: 2o min</div>
+       <div class="item-2"> Grad: lett</div>
+     </div>
+
+       <hr class="thin-line">
+
+    </section>
+
+<!--Liste med ingredienser-->
+    <section class="section-2">
+      <h2>Ingredienser</h2>
+          <ul>
+            <li>200g hytteost</li>
+            <li>1 æg</li>
+            <li>25g wispey vaniljeproteinpulver, eller andet vaniljeproteinpulver</li>
+            <li>70g frosne bær</li>
+            <li>10-12 dråber flydende sødemiddel</li>
+          </ul>
+
+        <hr class="thin-line">
+   </section>
 
 <!--Slik gjør du -->
-   <h2>Slik gjør du</h2>
+   <section class="section-3">
+     <h2>Slik gjør du</h2>
 
-   <ol>
-     <li>Start med at komme hytteost, æg, proteinpulver og 
+     <ol>
+      <li>Start med at komme hytteost, æg, proteinpulver og 
         evt. lidt sødemiddel i en miniblender og blend til en 
         ensformig masse.</li>
-     <li>Kom et stykke bagepapir i bunden af en 10 cm
+      <li>Kom et stykke bagepapir i bunden af en 10 cm
         springform og hæld massen deri.</li>
-     <li>Stil kagen i en 200 grader forvarm ovn i ca. 35 minutter.
+      <li>Stil kagen i en 200 grader forvarm ovn i ca. 35 minutter.
         Lad kagen efterfølgende køle af i 30-40 minutter,
          inden I skær den fri fra formen og server den.</li>
-     <li>Mens kagen er i ovnen, kan I hurtigt bikse kompotten
+      <li>Mens kagen er i ovnen, kan I hurtigt bikse kompotten
         sammen ved at komme bær og lidt sødemiddel i en kasserolle og giv det et hurtigt opkog.</li>
-     <li>Skær kagen fri fra formen, kom den på et fad, 
+      <li>Skær kagen fri fra formen, kom den på et fad, 
         top med den lune kompot og server friske bær til.</li>
-   </ol>
+     </ol>
 
-   <hr class="thin-line">
+      <hr class="thin-line">
+   </section>
 
 <!--produktlinje-->
+  <section class="section-4">
+    <h2>Mest populære</h2>
+    <p>Læs mere om proteinpulver her</p>
+  </section>
+
+  <section class="images">
+    <div class="Wispy">
+        <img src="images/Wispey - vanilje.webp" alt="vaniljeproteinpulver fra Wispy" width="233px" height="250px">
+        <h3>Wispy Whey 100 (1kg) - vanilla milkshake</h3>
+        <div class="price">249,00 DKK</div>
+    </div>
+    <div class="bodylab">
+        <img src="images/vanilla_blend.webp" alt="vaniljeproteinpulver fra bodylab" width="233px" height="250px">
+        <h3>Bodylab Vegan Blend Protein Powder - vanilla</h3>
+        <div class="price">149,00 DKK</div>
+    </div>
+        <img src="images/vanilla.webp" alt="vaniljeproteinpulver fra biotechusa" width="233px" height="250px">
+        <h3>BioTechUSA 100% pure Whey protein powder (1 kg) - bourbon vanilla </h3>
+        <div class="price">249,00 DKK</div>
+    </div>
+  </section>
+
 
 <footer>
     <section class="newsletter">
