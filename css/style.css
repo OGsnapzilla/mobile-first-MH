@@ -4,6 +4,21 @@
     padding: 0;
 }
 
+@font-face {
+    font-family:'Keep calm';
+    src: url(../fonts/keep_calm/KeepCalm-Medium.ttf);
+    font-family: 'Source Sans';
+    src: url(../fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+}
+
+body{
+    font-family:'Source Sans';
+}
+
+h1{
+    font-family: Keep calm;
+}
+
 /*GUIDES*/
 /*Styling af fotos*/
 .billedrække{
@@ -15,9 +30,12 @@
 }
 
 .fotos{
-    width: 100%;
-    height:auto;
+    width: 380px;
+    height:200px;
+    overflow: visible;
+
 }
+
 
 /*Styling af knap og placering af den*/
 .button{
