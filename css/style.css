@@ -80,3 +80,11 @@ footer{
     border: none;
     border-radius: 20px;
 }
+
+
+/* Styling af undersiden proteinpulver */
+
+h1{
+    display: flex;
+    justify-content: center;
+}
