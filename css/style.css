@@ -6,12 +6,17 @@
 
 /*GUIDES*/
 /*Styling af fotos*/
-.guides{
+.billedrække{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     margin: 20px;
+}
+
+.fotos{
+    width: 100%;
+    height:auto;
 }
 
 /*Styling af knap og placering af den*/
@@ -28,7 +33,13 @@
     border-radius: 20px;
     position: absolute;
     bottom:15px;
+    display: flex;
+    justify-content: center;
 }
+
+/*PRODUKTGUIDE*/
+/**/
+
 
 
 /*FOOTER*/
@@ -36,7 +47,8 @@
 footer{
     background-color: #61CAC0;
 }
- 
+
+/*Placering i footer*/
 .newsletter{
    display: flex;
    flex-direction: column;
@@ -62,6 +74,7 @@ footer{
     margin: 2%;
 }
 
+/*Styling af tilmeld knap*/
 .tilmeld{
     background-color: #F89406;
     color: #ffffff;
