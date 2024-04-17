@@ -1,4 +1,8 @@
-
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /*GUIDES*/
 /*Styling af fotos*/
@@ -26,4 +30,11 @@
 }
 
 
+/*FOOTER*/
+/*Styling af footer*/
+footer{
+    background-color: #61CAC0;
+    display: flex;
+    flex-direction: row;
+}
  
