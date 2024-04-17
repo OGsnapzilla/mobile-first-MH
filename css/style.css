@@ -9,7 +9,7 @@
 .guides{
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     position: relative;
     margin: 20px;
 }
@@ -21,6 +21,7 @@
     width: 218px;
     height:39px;
     font-size: 18px;
+    align-items: center;    
     text-align: center;
     text-decoration: none;
     border: none;
@@ -34,7 +35,25 @@
 /*Styling af footer*/
 footer{
     background-color: #61CAC0;
-    display: flex;
-    flex-direction: row;
 }
  
+.newsletter{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 2%;
+   padding: 3%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
