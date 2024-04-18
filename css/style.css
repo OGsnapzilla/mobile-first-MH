@@ -85,7 +85,15 @@ nav li:first-child{
 }
 
 
-@media(max-width: 900px) {
+/*Media Query*/
+/*Desktop*/
+@media(min-width:1024px){
+    
+}
+
+
+/*Tablet*/
+@media(min-width: 768px) and (max-width:1023px){
     .hideOnMobile {
         display: none;
     }
@@ -95,7 +103,8 @@ nav li:first-child{
     }
 }
 
-@media(max-width: 425px) {
+/*Mobil*/
+@media(max-width: 767px) {
     .sidebar{
         width: 100%;
     }
@@ -114,6 +123,7 @@ nav li:first-child{
 body{
     font-family:'Source Sans';
 }
+
 
 h1{
     font-family: 'Keep calm';
