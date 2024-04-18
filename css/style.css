@@ -106,6 +106,17 @@ nav li:first-child{
         justify-content: center;
     }
 
+    article-1 img {
+        width: 60rem;
+        height: auto;
+    }
+
+    footer {
+        width: 51rem;
+    }
+
+    
+
 }
 
 /*Mobil*/
