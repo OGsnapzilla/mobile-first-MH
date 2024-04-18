@@ -111,9 +111,6 @@ nav li:first-child{
         height: auto;
     }
 
-    footer {
-        width: 51rem;
-    }
 
     
 
@@ -251,38 +248,35 @@ h1{
     height: 200px;
     display: flex;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 1rem;
 }
 
 .valleproteinpulver{
     width: 100%;
     height: 110px;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 1rem;
 }
 
 .Kaseinproteinpulver{
     width: 100%;
     height: 110px;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 1rem;
 }
 /* Styling af underoverskrifter og tekst */
 h3 {
-    line-height: 2;
-    margin-left: 5%;
+    line-height: 1.5;
+    margin-left: 1rem;
 }
 
 h4{
-    line-height: 2;
-    margin-left: 5%;
-
+    line-height: 1.5;
+    margin-left: 1rem;
+    
 }
 
 .a {
-    margin-bottom: 3%;
-    margin-left: 5%;
+    padding: 1rem;
 }
+
