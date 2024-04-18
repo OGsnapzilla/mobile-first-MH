@@ -78,6 +78,63 @@ nav li:first-child{
     width: 100px;
 
 }
+
+/*Media Query*/
+/*Desktop*/
+@media(min-width:1024px){
+    
+}
+
+
+/*Tablet*/
+@media(min-width: 768px) and (max-width:1023px){
+    .hideOnMobile {
+        display: none;
+    }
+    
+    .burgerMenu {
+        display: block;
+    }
+
+    h1 {
+        justify-content: center;
+    }
+
+    article-1 img {
+        width: 60rem;
+        height: auto;
+    }
+
+
+    
+
+}
+
+/*Mobil*/
+@media(max-width: 767px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+
+
+@font-face {
+    font-family:'Keep calm';
+    src: url(../fonts/keep_calm/KeepCalm-Medium.ttf);
+    font-family: 'Source Sans';
+    src: url(../fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+}
+
+body{
+    font-family:'Source Sans';
+}
+
+
+h1{
+    font-family: 'Keep calm';
+}
 /*section one: cake images and text*/
 
 
@@ -113,6 +170,7 @@ h1 {
 
 .thin-line {
     border-bottom: 2px solid #F89406;
+    margin: 2% 5%;
 }
 
 /*section 2: ingrediens*/
@@ -219,7 +277,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 
 
