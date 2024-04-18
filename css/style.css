@@ -4,6 +4,106 @@
     padding: 0;
 }
 
+
+html {
+    font-family: sans-serif;
+}
+
+
+/* Styling navbar container */
+nav {
+    background-color: white;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling unordered list container */
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling unordered lits-items*/
+nav li {
+    height: 50px;
+    margin: 10px;
+}
+
+/* Styling anchor tags inside nav container */
+nav a {
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+/* styling hover effect on anchors */
+nav a:hover {
+    background-color: #61cabf29;
+}
+
+/* Styling first list-item inside nav container */
+nav li:first-child{
+    margin-right: auto;
+}
+
+
+#menuLogoContainer {
+    position: absolute;
+    left: 45%;
+    transform: translatX(-50%);
+}
+
+#menuLogo {
+    height: 50px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+
+}
+
+.sidebar li {
+    width: 100px;
+}
+
+
+@media(max-width: 900px) {
+    .hideOnMobile {
+        display: none;
+    }
+    
+    .burgerMenu {
+        display: block;
+    }
+}
+
+@media(max-width: 425px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+
+
 @font-face {
     font-family:'Keep calm';
     src: url(../fonts/keep_calm/KeepCalm-Medium.ttf);
