@@ -16,7 +16,7 @@ body{
 }
 
 h1{
-    font-family: Keep calm;
+    font-family: 'Keep calm';
 }
 
 /*GUIDES*/
@@ -26,14 +26,27 @@ h1{
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 20px;
-}
-
-.fotos{
+    margin:20px;
     width: 380px;
     height:200px;
-    overflow: visible;
+    overflow: hidden;
+}
 
+/*Styler billederne så der bliver croppet og rokeret*/
+.fotos{
+    height: 100%;
+}
+
+.fotos1{
+    width: 100%;
+}
+
+.rotate{
+    transform: translateY(-15%);
+}
+
+.rotate1{
+    transform: translateY(-25%);
 }
 
 
@@ -55,7 +68,6 @@ h1{
     justify-content: center;
 }
 
-/* Styling af undersiden proteinpulver */
 
 /*FOOTER*/
 /*Styling af footer*/
@@ -69,7 +81,7 @@ footer{
    flex-direction: column;
    align-items: center;
    margin: 2%;
-   padding: 3%;
+   padding: 2%;
 }
 
 .info{
