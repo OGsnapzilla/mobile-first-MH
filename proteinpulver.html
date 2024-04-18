@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Her finder du alt om proteinpulver, hvad er proteinpulver, hvornår skal jeg indtage det"
-    <meta name="keywords" content="proteinpulver, whey, valleprotein, Kaseinproteinpulver, valleproteinpulver"
-    <meta nema="author" content="Carina Simonsen"
+    <meta name="description" content="Her finder du alt om proteinpulver, hvad er proteinpulver, hvornår skal jeg indtage det">
+    <meta name="keywords" content="proteinpulver, whey, valleprotein, Kaseinproteinpulver, valleproteinpulver">
+    <meta name="author" content="Carina Simonsen">
     <title>Proteinpulver</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     
 </head>
 
 <!--INDHOLD-->
 <body>
-  <header></header>
+  <!--NAVIGATION-->
+<nav>
+  <ul class="sidebar">
+      <li onclick='hideSidebar()'><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="#">Muskelopbygning</a></li>
+      <li><a href="#">Vægttab</a></li>
+      <li><a href="#">Performance og tilskud</a></li>
+      <li><a href="#">Mad og snacks</a></li>
+      <li><a href="#">Tøj og udstyr</a></li>
+      <li><a href="#">Bland selv</a></li>
+      <li><a href="#">Tilbud</a></li>
+      <li><a href="guides.html"  class="active">Guides</a></li>
+  </ul>
+
+  <ul>
+      <li class="hideOnMobile"><a href="index.html" class="menuLink">Forside</a></li>
+      <li class="hideOnMobile"><a href="#" class="menuLink">Muskelopbygning</a></li>
+      <li class="hideOnMobile"><a href="#" class="menuLink">Vægttab</a></li>
+      <li class="hideOnMobile"><a href="#" class="menuLink">Performance og tilskud</a></li>
+      <li class="hideOnMobile"><a href="#" class="menuLink">Mad og snacks</a></li>
+      <li class="hideOnMobile"><a href="#" class="menuLink">Tøj og udstyr</a></li>
+      <li class="hideOnMobile"><a href="#" class="menuLink">Bland selv</a></li>
+      <li class="hideOnMobile"><a href="#" class="menuLink">Tilbud</a></li>
+      <li class="hideOnMobile"><a href="guides.html" class="menuLink">Guides</a></li>
+      <li class="burgerMenu" onclick='showSidebar()'><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      <li id="menuLogoContainer"><img src="images/logomobile.webp" alt="Logo" id="menuLogo"></li>
+  </ul>
+</nav>
 
   <!-- Kodning af alt om proteinpulver -->
   <main>
