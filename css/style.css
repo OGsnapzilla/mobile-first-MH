@@ -145,6 +145,58 @@ h1{
     font-family: 'Keep calm';
 }
 
+/*FORSIDE*/
+/*Styling af quote på forsiden*/
+.quote img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/*Sætter billeder på en række*/
+.row{
+   width: 10rem;
+   height: 10rem;
+   display: flex;
+   flex-direction: row;
+   margin: 1rem;
+}
+
+.opskrift img{
+    width: 90%;
+}
+
+/*Centrerer foto*/
+.opskrift{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+/*Styler tekstboks ovenpå foto*/
+.note{
+    background-color: #F89406;
+    color: #ffffff;
+    width: 260px;
+    height: 39px;
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.anmeldelse{
+    background-color: #F89406;
+    width: 90%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 75%;
+    margin-left: 1.5rem;
+}
+
 
 /*GUIDES*/
 /*Styling af fotos*/
