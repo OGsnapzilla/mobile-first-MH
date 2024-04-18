@@ -101,6 +101,11 @@ nav li:first-child{
     .burgerMenu {
         display: block;
     }
+
+    h1 {
+        justify-content: center;
+    }
+
 }
 
 /*Mobil*/
@@ -267,86 +272,6 @@ h4{
 }
 
 .a {
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.b{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.c{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.d{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.e{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.f{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.g{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.h{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.i{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.j{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.k {
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.l{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.m{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.n{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.o{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.p{
-    margin-bottom: 3%;
-    margin-left: 5%;
-}
-
-.q{
     margin-bottom: 3%;
     margin-left: 5%;
 }
