@@ -103,6 +103,22 @@ nav li:first-child{
 
 
 
+
+@font-face {
+    font-family:'Keep calm';
+    src: url(../fonts/keep_calm/KeepCalm-Medium.ttf);
+    font-family: 'Source Sans';
+    src: url(../fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+}
+
+body{
+    font-family:'Source Sans';
+}
+
+h1{
+    font-family: 'Keep calm';
+}
+
 /*GUIDES*/
 /*Styling af fotos*/
 .billedrække{
@@ -110,13 +126,29 @@ nav li:first-child{
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 20px;
+    margin:20px;
+    width: 380px;
+    height:200px;
+    overflow: hidden;
 }
 
+/*Styler billederne så der bliver croppet og rokeret*/
 .fotos{
-    width: 100%;
-    height:auto;
+    height: 100%;
 }
+
+.fotos1{
+    width: 100%;
+}
+
+.rotate{
+    transform: translateY(-15%);
+}
+
+.rotate1{
+    transform: translateY(-25%);
+}
+
 
 /*Styling af knap og placering af den*/
 .button{
@@ -136,7 +168,6 @@ nav li:first-child{
     justify-content: center;
 }
 
-/* Styling af undersiden proteinpulver */
 
 /*FOOTER*/
 /*Styling af footer*/
@@ -150,7 +181,7 @@ footer{
    flex-direction: column;
    align-items: center;
    margin: 2%;
-   padding: 3%;
+   padding: 2%;
 }
 
 .info{
@@ -186,4 +217,125 @@ footer{
 h1{
     display: flex;
     justify-content: center;
+}
+/* Styling af fotos*/
+.pulverimg{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.valleproteinpulver{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Kaseinproteinpulver{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Styling af underoverskrifter og tekst */
+h3 {
+    line-height: 2;
+    margin-left: 5%;
+}
+
+h4{
+    line-height: 2;
+    margin-left: 5%;
+
+}
+
+.a {
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.b{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.c{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.d{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.e{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.f{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.g{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.h{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.i{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.j{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.k {
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.l{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.m{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.n{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.o{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.p{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+
+.q{
+    margin-bottom: 3%;
+    margin-left: 5%;
 }
