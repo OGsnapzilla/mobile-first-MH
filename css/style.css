@@ -351,19 +351,11 @@ h4{
 /*Desktop*/
 @media(min-width:1024px){
     
+/* Media Query footer */
     footer{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-    }
-
-    .populært{
-        margin-left: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .move{
-        margin-left: 3rem;
     }
 
     .tilmeld{
@@ -373,13 +365,20 @@ h4{
     .info{
         margin-top: 3.5rem;
     }
-    
-    
 
+/* Media Query forside */
+    .populært{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .move{
+        margin-left: 3rem;
+    }
+    
     .opskrift{
         width: 50%;
     }
-
 
     .anmeldelse{
         width: 40%;
@@ -406,7 +405,16 @@ h4{
         margin-bottom: 2rem;
     }
     
+/* Media Query guide siderne */
+    .billedrækken{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 2rem 0rem;
+        justify-content: space-evenly;
+    }
 
+    
 
 }
 
@@ -431,6 +439,7 @@ h4{
         height: auto;
     }
 
+    /* Media Query på footer */
     footer{
         display: flex;
         flex-direction: row-reverse;
@@ -438,6 +447,15 @@ h4{
 
     }
 
+    .tilmeld{
+        width: 40%;
+    }
+
+    .info{
+        margin-top: 2.5rem;
+    }
+
+    /* Media Query på forside */
     .populært{
         margin-left: 1.5rem;
         margin-bottom: 4rem;
@@ -451,22 +469,25 @@ h4{
         width: 82%;
         margin-left: 2.5rem;
     }
-
-    .tilmeld{
-        width: 40%;
-    }
-
-    .info{
-        margin-top: 2.5rem;
-
-    }
-
     .quote{
         margin-top: 2rem;
     }
     
+/* Media query på guide siderne */
+    .billedrække{
+        width: auto;
+        height: 350px;
+    }
+
+
 
 }
+
+
+
+
+    
+   
 
 /*Mobil*/
 @media(max-width: 767px) {
