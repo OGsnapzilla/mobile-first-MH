@@ -170,20 +170,7 @@ nav li:first-child{
         display: flex;
        
     }
-
-
-    
-
 }
-
-/*Mobil*/
-@media(max-width: 767px) {
-    .sidebar{
-        width: 100%;
-    }
-}
-
-
 
 
 @font-face {
@@ -528,19 +515,21 @@ h4{
         height: 350px;
     }
 
-
-
 }
 
-
-
-
+/*---- MOBIL ------*/
+@media(max-width:1022px) {
+    .hideOnMobile {
+        display: none;
+    }
     
-   
+    .burgerMenu {
+        display: block;
+    }
 
-/*Mobil*/
-@media(max-width: 767px) {
-    .sidebar{
-        width: 100%;
+    .sidebar {
+        display: none;
     }
 }
+
+
