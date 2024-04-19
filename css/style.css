@@ -85,43 +85,6 @@ nav li:first-child{
 }
 
 
-/*Media Query*/
-/*Desktop*/
-@media(min-width:1024px){
-    
-}
-
-
-/*Tablet*/
-@media(min-width: 768px) and (max-width:1023px){
-    .hideOnMobile {
-        display: none;
-    }
-    
-    .burgerMenu {
-        display: block;
-    }
-
-    h1 {
-        justify-content: center;
-    }
-
-    article-1 img {
-        width: 60rem;
-        height: auto;
-    }
-
-
-    
-
-}
-
-/*Mobil*/
-@media(max-width: 767px) {
-    .sidebar{
-        width: 100%;
-    }
-}
 
 
 
@@ -187,13 +150,17 @@ h1{
 
 .anmeldelse{
     background-color: #F89406;
-    width: 90%;
+    width:75%;
     padding: 2rem;
     margin-bottom: 2rem;
-    width: 75%;
-    margin-left: 1.5rem;
+    margin-left: 1.3rem;
+    display: flex;
+    justify-content: center;
 }
 
+.move{
+    margin-left: 1.5rem;
+}
 
 /*GUIDES*/
 /*Styling af fotos*/
@@ -209,11 +176,8 @@ h1{
 }
 
 /*Styler billederne så der bliver croppet og rokeret*/
-.fotos{
-    height: 100%;
-}
 
-.fotos1{
+.fotos{
     width: 100%;
 }
 
@@ -264,13 +228,11 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 5%;
+.kundeservice{
+    margin-left: 6rem;
 }
 
 .box{
@@ -332,3 +294,65 @@ h4{
     padding: 1rem;
 }
 
+
+/*Media Query*/
+/*Desktop*/
+@media(min-width:1024px){
+    
+
+
+}
+
+
+
+/*Tablet*/
+@media(min-width: 768px) and (max-width:1023px){
+    .hideOnMobile {
+        display: none;
+    }
+    
+    .burgerMenu {
+        display: block;
+    }
+
+    h1 {
+        justify-content: center;
+    }
+
+    article-1 img {
+        width: 60rem;
+        height: auto;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+    }
+
+    .populært{
+        margin-left: 1.5rem;
+    }
+
+    .move{
+        margin-left: 3rem;
+    }
+
+    .anmeldelse{
+        
+
+    }
+
+    .tilmeld{
+        width: 40%;
+    }
+    
+}
+
+/*Mobil*/
+@media(max-width: 767px) {
+    .sidebar{
+        width: 100%;
+    }
+}
