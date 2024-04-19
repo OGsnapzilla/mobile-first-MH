@@ -299,6 +299,63 @@ h4{
 /*Desktop*/
 @media(min-width:1024px){
     
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .populært{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .move{
+        margin-left: 3rem;
+    }
+
+    .tilmeld{
+        width: 40%;
+    }
+
+    .info{
+        margin-top: 2rem;
+    }
+    
+    .newsletter{
+        margin-top: 1.8rem;
+    }
+
+    .opskrift{
+        width: 50%;
+    }
+
+
+    .anmeldelse{
+        width: 40%;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .apostrof{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .reklame{
+        display: flex;
+        flex-direction: row;
+        margin: 2rem 0rem;
+    }
+    
+    .quote{
+        height: 25rem;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+    
 
 
 }
@@ -340,12 +397,17 @@ h4{
     }
 
     .anmeldelse{
-        
-
+        width: 82%;
+        margin-left: 2.5rem;
     }
 
     .tilmeld{
         width: 40%;
+    }
+
+    .info{
+        margin-top: 1rem;
+
     }
     
 }
