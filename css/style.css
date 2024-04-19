@@ -104,11 +104,21 @@ nav li:first-child{
 
     h1 {
         justify-content: center;
+        display: flex;
     }
 
-    article-1 img {
-        width: 60rem;
-        height: auto;
+    .pulverimg {
+        height: 21rem;
+    }
+
+    .valleproteinpulver {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .kaseinproteinpulver {
+        justify-content: space-evenly;
+        display: flex;
     }
 
 
