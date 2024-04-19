@@ -162,7 +162,7 @@ h1{
 /*Styling af quote på forsiden*/
 .quote img{
     width: 100%;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 /*Sætter billeder på en række*/
@@ -184,6 +184,10 @@ h1{
     justify-content: center;
     margin-bottom: 2rem;
     position: relative;
+}
+
+.populært{
+    margin-bottom: 5rem;
 }
 
 /*Styler tekstboks ovenpå foto*/
@@ -274,7 +278,7 @@ footer{
    flex-direction: column;
    align-items: center;
    margin: 2%;
-   padding: 2%;
+   padding: 5%;
 }
 
 .info{
@@ -372,12 +376,10 @@ h4{
     }
 
     .info{
-        margin-top: 2rem;
+        margin-top: 3.5rem;
     }
     
-    .newsletter{
-        margin-top: 1.8rem;
-    }
+    
 
     .opskrift{
         width: 50%;
@@ -443,6 +445,7 @@ h4{
 
     .populært{
         margin-left: 1.5rem;
+        margin-bottom: 4rem;
     }
 
     .move{
@@ -459,10 +462,15 @@ h4{
     }
 
     .info{
-        margin-top: 1rem;
+        margin-top: 2.5rem;
 
     }
+
+    .quote{
+        margin-top: 2rem;
+    }
     
+
 }
 
 /*Mobil*/
