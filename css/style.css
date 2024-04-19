@@ -86,6 +86,54 @@ nav li:first-child{
 
 
 
+/*Media Query*/
+/*Desktop*/
+@media(min-width:1024px){
+    
+}
+
+
+/*Tablet*/
+@media(min-width: 768px) and (max-width:1023px){
+    .hideOnMobile {
+        display: none;
+    }
+    
+    .burgerMenu {
+        display: block;
+    }
+
+    h1 {
+        justify-content: center;
+        display: flex;
+    }
+
+    .pulverimg {
+        height: 21rem;
+    }
+
+    .valleproteinpulver {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .kaseinproteinpulver {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+
+    
+
+}
+
+/*Mobil*/
+@media(max-width: 767px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
 
 
 
