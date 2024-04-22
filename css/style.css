@@ -327,6 +327,176 @@ h1{
 }
 
 
+/*Opskrift*/
+/*section one: cake images and text*/
+.cake {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 5%;
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .cake-img {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 1100px;
+    }
+
+    .cake-title {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+
+    }
+
+    .text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+.cheesecake {
+    font-weight: bold;
+    font-size: 250%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+
+.item-1 {
+    margin-left: 20%;
+}
+
+.item-2 {
+    margin-right: 20%;
+}
+
+.thin-line, .thin-line-1 {
+    border-bottom: 2px solid #F89406;
+    margin: 2% 5%;
+}
+
+/*section 2: ingrediens*/
+
+h2 {
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 1% ;
+}
+
+.ingrediens {
+    margin-left: 10%;
+    padding-bottom: 2%;
+    list-style: none;
+
+}
+
+a {
+    padding: 1%
+}
+
+/*Section 3: slik gjør du*/
+
+.description {
+    margin-left: 10%;
+    padding: 2%;
+
+}
+
+/*media for opskrifter*/
+@media screen and (min-width:1024px) {
+    .desk {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .section-2, .section-3 {
+        flex: 1;
+    
+    }
+
+    li {
+        padding-top: 2%;
+    }
+
+    .thin-line-1 {
+        display: none;
+    }
+
+/*makes the foto bigger*/
+    .cake-img {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 1100px;
+    }
+
+    .text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+/*produktlinje*/
+    
+
+
+}
+
+
+/*section 4: produktlinje*/
+
+p {
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.text-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    gap: 4%;
+
+}
+
+.text-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bodylab {
+    order: 3;
+}
+
+h3 {
+    font-weight: normal;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 100%;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 7%;
+    padding-bottom: 10%;
+    
+}
+
+
 /*FOOTER*/
 /*Styling af footer*/
 footer{
@@ -499,8 +669,6 @@ h4{
     
 
 }
-
-
 
 /*Tablet*/
 @media(min-width: 768px) and (max-width:1023px){
