@@ -327,14 +327,27 @@ h1{
     padding: 5%;
 }
 
-@media screen and (min-width: 1024px) {
-    .cake img {
+
+
+@media screen and (min-width:1024px) {
+    .cake-img {
         display: flex;
         justify-content: center;
         height: auto;
         width: 1100px;
     }
 
+    .cake-title {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+
+    }
+
+    .text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
 }
 
@@ -374,7 +387,7 @@ h2 {
     padding-bottom: 1% ;
 }
 
-ul {
+.ingrediens {
     margin-left: 10%;
     padding-bottom: 2%;
     list-style: none;
@@ -387,13 +400,14 @@ a {
 
 /*Section 3: slik gjør du*/
 
-ol li{
+.description {
     margin-left: 10%;
     padding: 2%;
 
 }
 
-@media screen and (min-width: 1024px) {
+/*media for opskrifter*/
+@media screen and (min-width:1024px) {
     .desk {
         display: flex;
         margin-left: 10%;
@@ -403,8 +417,7 @@ ol li{
 
     .section-2, .section-3 {
         flex: 1;
-        
-
+    
     }
 
     li {
@@ -414,6 +427,24 @@ ol li{
     .thin-line-1 {
         display: none;
     }
+
+/*makes the foto bigger*/
+    .cake-img {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 1100px;
+    }
+
+    .text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+/*produktlinje*/
+    
+
+
 }
 
 
@@ -452,16 +483,9 @@ h3 {
     font-weight: bold;
     font-size: 120%;
     margin-left: 7%;
+    padding-bottom: 10%;
     
 }
-
-@media screen and (min-width: 1024px) {
-    .price {
-        padding-bottom: 20%;
-
-    }
-}
-
 
 
 /*FOOTER*/
@@ -636,8 +660,6 @@ h4{
     
 
 }
-
-
 
 /*Tablet*/
 @media(min-width: 768px) and (max-width:1023px){
