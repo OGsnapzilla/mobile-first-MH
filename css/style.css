@@ -426,6 +426,7 @@ h4{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        height: 200px;
     }
 
     .tilmeld{
@@ -433,7 +434,11 @@ h4{
     }
 
     .info{
-        margin-top: 3.5rem;
+        margin-top: 3rem;
+    }
+
+    .newsletter{
+        margin-top: -20px;
     }
 
 /* Media Query forside */
@@ -458,9 +463,7 @@ h4{
     }
 
     .apostrof{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        margin-top: -250px;
     }
 
     .reklame{
