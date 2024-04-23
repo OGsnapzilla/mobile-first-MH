@@ -456,7 +456,6 @@ a {
 
 }
 
-
 /*section 4: produktlinje*/
 
 p {
@@ -664,6 +663,12 @@ h4{
         flex-wrap: wrap;
         margin: 2rem 0rem;
         justify-content: space-evenly;
+
+    }
+
+    .billedrække .button {
+        padding: 3% 12%;
+
     }
 
     
