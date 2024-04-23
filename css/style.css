@@ -605,16 +605,26 @@ h4{
     }
 
     .tilmeld{
-        width: 40%;
+        width: 55%;
+        padding: 2%;
     }
 
     .info{
         margin-top: 3rem;
     }
 
+    .box {
+        padding: 2%;
+    }
+    .row {
+        margin-left: 10%;
+    }
+
     .newsletter{
         margin-top: -20px;
+        margin-right: 20%;
     }
+
 
 /* Media Query forside */
     .populært{
