@@ -526,6 +526,12 @@ footer{
     margin: 2%;
 }
 
+.tilmeld {
+    margin-top: 10%;
+    padding: 2%;
+
+}
+
 /*Styling af tilmeld knap*/
 .tilmeld{
     background-color: #F89406;
