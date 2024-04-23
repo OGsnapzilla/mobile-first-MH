@@ -369,7 +369,6 @@ a {
 
 }
 
-
 /*section 4: produktlinje*/
 
 p {
@@ -438,6 +437,12 @@ footer{
 
 .box{
     margin: 2%;
+}
+
+.tilmeld {
+    margin-top: 10%;
+    padding: 2%;
+
 }
 
 /*Styling af tilmeld knap*/
@@ -580,6 +585,12 @@ h4{
         flex-wrap: wrap;
         margin: 2rem 0rem;
         justify-content: space-evenly;
+
+    }
+
+    .billedrække .button {
+        padding: 3% 12%;
+
     }
 
 /* Media query på alt om proteinpulver */
