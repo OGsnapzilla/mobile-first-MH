@@ -128,7 +128,7 @@ nav li:first-child{
         margin-left: 9rem;
     }
 
-    .pulverimg {
+    .pulver {
         width: 100%;
         height: 200px;
         display: flex;
@@ -309,7 +309,7 @@ h1{
 
 
 /*Styling af knap og placering af den*/
-.button{
+.buttonGuides{
     background-color: #F89406;
     color: #ffffff;
     width: 218px;
@@ -544,8 +544,9 @@ h1{
     display: flex;
     justify-content: center;
 }
+
 /* Styling af fotos*/
-.pulverimg{
+.pulver{
    width: 100%;
    height: 200px;
    display: flex;
@@ -805,8 +806,12 @@ h4{
     position: absolute;
     top: 50%;
     transform: translate(-50%);
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #F89406;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
   }
   
   .button--previous {
