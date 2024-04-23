@@ -59,8 +59,29 @@ nav li:first-child{
     transform: translatX(-50%);
 }
 
+#menuBasketContainer {
+    position: absolute;
+    left: 80%;
+    margin-top: 30px;
+    
+}
+
+#menuSearchContainer {
+    position: absolute;
+    left: 90%;
+    margin-top: 30px;
+}
+
 #menuLogo {
     height: 50px;
+}
+
+#basketLogo {
+    height: 30px;
+}
+
+#searchLogo {
+    height: 30px;
 }
 
 .sidebar {
@@ -107,7 +128,7 @@ nav li:first-child{
         margin-left: 9rem;
     }
 
-    .pulver {
+    .pulverimg {
         width: 100%;
         height: 200px;
         display: flex;
@@ -152,7 +173,7 @@ nav li:first-child{
         display: flex;
     }
 
-    .pulver {
+    .pulverimg {
         width: 100%;
         height: 307px;
         display: flex;
@@ -170,36 +191,23 @@ nav li:first-child{
         display: flex;
        
     }
-
-
-    
-
 }
-
-/*Mobil*/
-@media(max-width: 767px) {
-    .sidebar{
-        width: 100%;
-    }
-
-    .pulver {
-        width: 25.5rem;
-        height: auto;
-        margin-left: 1rem;
-        margin-right: ;
-    }
-}
-
-
 
 
 @font-face {
+    font-family:'Keep calm';
+    src: url(../fonts/keep_calm/KeepCalm-Medium.ttf);
     font-family: 'Source Sans';
     src: url(../fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
 }
 
 body{
     font-family:'Source Sans';
+}
+
+
+h1{
+    font-family: 'Keep calm';
 }
 
 /*FORSIDE*/
@@ -328,6 +336,30 @@ body{
     padding: 5%;
 }
 
+
+
+@media screen and (min-width:1024px) {
+    .cake-img {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 1100px;
+    }
+
+    .cake-title {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+
+    }
+
+    .text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
 .cheesecake {
     font-weight: bold;
     font-size: 250%;
@@ -336,7 +368,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 
 .text {
     display: flex;
@@ -407,47 +438,21 @@ a {
     }
 
 /*makes the foto bigger*/
-.cake-img {
-    display: flex;
-    justify-content: center;
-    height: auto;
-    width: 1100px;
-}
+    .cake-img {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 1100px;
+    }
 
-.cake-title {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3%;
-
-}
-
-.cheesecake {
-    margin: 1%;
-    display: flex;
-
-   
-}
-
-.text {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.item-1, .item-2 {
-    font-size: 120%;
-}
+    .text {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
 /*produktlinje*/
     
-.text-2 h3 {
-    font-size: 140%;
-   
-}
 
-.text-2 .price {
-    font-size: 160%;
-    margin-left: 3%;
-}
 
 }
 
@@ -541,11 +546,11 @@ h1{
 }
 /* Styling af fotos*/
 .pulverimg{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
+   width: 100%;
+   height: 200px;
+   display: flex;
+   align-items: center;
+   padding: 1rem;
 }
 
 .valleproteinpulver{
@@ -581,6 +586,19 @@ h4{
 /*Media Query*/
 /*Desktop*/
 @media(min-width:1024px){
+
+/*Navigation*/
+.hideOnMobile {
+    display: none;
+}
+
+.burgerMenu {
+    display: block;
+}
+
+.sidebar {
+    display: none;
+}
     
 /* Media Query footer */
     footer{
@@ -591,26 +609,16 @@ h4{
     }
 
     .tilmeld{
-        width: 55%;
-        padding: 2%;
+        width: 40%;
     }
 
     .info{
         margin-top: 3rem;
     }
 
-    .box {
-        padding: 2%;
-    }
-    .row {
-        margin-left: 10%;
-    }
-
     .newsletter{
         margin-top: -20px;
-        margin-right: 20%;
     }
-
 
 /* Media Query forside */
     .populært{
@@ -718,23 +726,22 @@ h4{
         height: 350px;
     }
 
-
-
 }
 
-
-
-
+/*---- MOBIL ------*/
+@media(max-width:1022px) {
+    .hideOnMobile {
+        display: none;
+    }
     
-   
+    .burgerMenu {
+        display: block;
+    }
 
-/*Mobil*/
-@media(max-width: 767px) {
-    .sidebar{
-        width: 100%;
+    .sidebar {
+        display: none;
     }
 }
-<<<<<<< Updated upstream
 
 /*------- KARUSSEL -------*/
 
@@ -811,6 +818,3 @@ h4{
     right: 1.5rem;
     transform: translate(-50%, -50%);
   }
-  
-=======
->>>>>>> Stashed changes
