@@ -107,93 +107,6 @@ nav li:first-child{
 
 
 
-/*Media Query*/
-/*Desktop*/
-@media(min-width:1024px){
-    .valleproteinpulver {
-        width: 100%;
-        height: 170px;
-        display: flex;
-        padding: 1rem;
-        justify-content: space-evenly;
-        margin-left: 9rem;
-    }
-
-    .Kaseinproteinpulver {
-        width: 100%;
-        height: 170px;
-        display: flex;
-        padding: 1rem;
-        justify-content: space-evenly;
-        margin-left: 9rem;
-    }
-
-    .pulverimg {
-        width: 100%;
-        height: 200px;
-        display: flex;
-        align-items: center;
-        padding: 1rem;
-        margin-left: 9rem;
-    }
-
-    h1 {
-        display: flex;
-        justify-content: center;
-        margin-left: 21rem;
-    }
-
-    .h3 {
-        margin-left: 10rem;
-    }
-
-    .h4 {
-        margin-left: 10rem;
-    }
-
-    .a {
-        margin-left: 9rem;
-    }
-
-}
-
-
-/*Tablet*/
-@media(min-width: 768px) and (max-width:1023px){
-    .hideOnMobile {
-        display: none;
-    }
-    
-    .burgerMenu {
-        display: block;
-    }
-
-    h1 {
-        justify-content: center;
-        display: flex;
-    }
-
-    .pulverimg {
-        width: 100%;
-        height: 307px;
-        display: flex;
-        align-items: center;
-        padding: 1rem;   
-    }
-
-    .valleproteinpulver {
-        justify-content: space-evenly;
-        display: flex;
-    }
-
-    .Kaseinproteinpulver {
-        justify-content: space-evenly;
-        display: flex;
-       
-    }
-}
-
-
 @font-face {
     font-family:'Keep calm';
     src: url(../fonts/keep_calm/KeepCalm-Medium.ttf);
@@ -543,9 +456,10 @@ footer{
 h1{
     display: flex;
     justify-content: center;
+
 }
 /* Styling af fotos*/
-.pulverimg{
+.pulver{
    width: 100%;
    height: 200px;
    display: flex;
@@ -570,11 +484,13 @@ h1{
 h3 {
     line-height: 1.5;
     margin-left: 1rem;
+    font-weight: bold;
 }
 
 h4{
     line-height: 1.5;
     margin-left: 1rem;
+    font-weight: bold;
     
 }
 
@@ -666,6 +582,51 @@ h4{
         justify-content: space-evenly;
     }
 
+/* Media query på alt om proteinpulver */
+    .valleproteinpulver {
+        width: 100%;
+        height: 170px;
+        display: flex;
+        padding: 1rem;
+        justify-content: space-evenly;
+        margin-left: 9rem;
+    }
+
+    .Kaseinproteinpulver {
+        width: 100%;
+        height: 170px;
+        display: flex;
+        padding: 1rem;
+        justify-content: space-evenly;
+        margin-left: 9rem;
+    }
+
+    .pulver {
+        width: 80%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        margin-left: 9rem;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-left: 21rem;
+    }
+
+    .h3 {
+        margin-left: 10rem;
+    }
+
+    .h4 {
+        margin-left: 10rem;
+    }
+
+    .a {
+        margin-left: 9rem;
+    }
     
 
 }
@@ -726,6 +687,26 @@ h4{
         height: 350px;
     }
 
+/* Media query på alt om proteinpulver */
+.pulver {
+    width: 100%;
+    height: 307px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;   
+}
+
+.valleproteinpulver {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.Kaseinproteinpulver {
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+
 }
 
 /*---- MOBIL ------*/
@@ -741,6 +722,12 @@ h4{
     .sidebar {
         display: none;
     }
+
+    .Kaseinproteinpulver {
+        justify-content: space-evenly;
+        display: flex;
+        }
+    
 }
 
 /*------- KARUSSEL -------*/
@@ -818,3 +805,6 @@ h4{
     right: 1.5rem;
     transform: translate(-50%, -50%);
   }
+
+  
+  
