@@ -6,7 +6,6 @@
     <title>Forside</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-
     <link rel="icon" type="image/gif/png" href="images/favicon.png">
 </head>
 
@@ -46,29 +45,37 @@
 
     <!--INDHOLD FRONT PAGE-->
     <main>
-        <section class="quote">
-            <img class="rotate" src="images/citatforside.webp" alt="Growth starts with inspiration quote">
+        <section class="frontPageQuote">
+            <img class="frontPageQuote" src="images/citat3.webp" alt="Growth starts with inspiration quote">
         </section>
 
-        <section class="populært">
-            <article>
-                <h3>Populære produkter</h3>
-            </article>
-            <article class="row">
-                <img src="images/proteinpulver3.webp" alt="Proteinpulver">
-                <img class="move" src="images/proteinbarer.webp" alt="Proteinbarer">
-            </article>
+        <!--  KARUSSEL   -->
+        <h2 class="frontPageh2">Populære produkter</h2>
+
+        <section class="caroussel">
+        <ul class="photoList">
+            <li class="photoItem"><section class="content"><img class="carousselImage" src="images/populærprodukt1.webp" alt=""></section></li>
+            <li class="photoItem"><section class="content"><img class="carousselImage" src="images/populærprodukt2.webp" alt=""></section></li>
+            <li class="photoItem"><section class="content"><img class="carousselImage" src="images/populærprodukt3.webp" alt=""></section></li>
+            <li class="photoItem"><section class="content"><img class="carousselImage" src="images/populærprodukt4.webp" alt=""></section></li>
+            <li class="photoItem"><section class="content"><img class="carousselImage" src="images/populærprodukt5.webp" alt=""></section></li>
+            <li class="photoItem"><section class="content"><img class="carousselImage" src="images/populærprodukt6.webp" alt=""></section></li>
+        </ul>
+
+        <button class="button button--previous" type="button">➜</button>
+        <button class="button button--next" type="button">➜</button>
+
         </section>
         
         <section class="reklame">
             <article class="opskrift">
                 <img src="images/recipe-icecream.webp" alt="Opskrift på hjemmelavet is med proteinbar">
-                <p class="note">I tvivl? Se vores guide</p>
+                <p class="note"><a class="guidesLink" href="guides.html">I tvivl? <b> Se vores produktguide</b></a></p>
             </article>
 
             <article class="anmeldelse">
                 <p class="apostrof"><strong>''</strong></p>
-                <p>Hurtig levering, gode produkter og kanon kundeservice. Dejlig oplevelse. Vi vender helt sikkert tilbage når lageret skal fyldes op igen. Tak!</p>
+                <p><i>Hurtig levering, gode produkter og kanon kundeservice. Dejlig oplevelse. Vi vender helt sikkert tilbage når lageret skal fyldes op igen. Tak!</i></p>
             </article>
         </section>
     </main>
