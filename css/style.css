@@ -56,7 +56,7 @@ nav li:first-child{
 #menuLogoContainer {
     position: absolute;
     left: 45%;
-    transform: translatX(-50%);
+    transform: translateX(-50%);
 }
 
 #menuBasketContainer {
