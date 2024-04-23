@@ -11,18 +11,27 @@ function showSidebar() {
     sidebar.style.display = 'flex'
 }
 
-// CAROUSSEL FUNCTIONS
-const list = document.querySelector(".photoList");
-
-  // We want to know the width of one of the items. We'll use this to decide how many pixels we want our carousel to scroll.
-  const item = document.querySelector(".photoItem");
-  const itemWidth = item.offsetWidth;
-
-  function handleClick(direction) {
-    // Based on the direction we call `scrollBy` with the item width we got earlier
-    if(direction === "previous") {
-      list.scrollBy({ left: -itemWidth, behavior: "smooth" });
-    } else {
-      list.scrollBy({ left: itemWidth, behavior: "smooth" });
+// CAROUSEL FUNCTIONS
+document.addEventListener("DOMContentLoaded", function() {
+    const list = document.querySelector(".photoList");
+  
+    // How far it should scroll
+    const item = document.querySelector(".photoItem");
+    const itemWidth = item.offsetWidth;
+  
+    function handleClick(direction) {
+      if (direction === "previous") {
+        list.scrollBy({ left: -itemWidth, behavior: "smooth" });
+      } else {
+        list.scrollBy({ left: itemWidth, behavior: "smooth" });
+      }
     }
-  }
+  
+    // Gets the buttons
+    const prevButton = document.querySelector(".button--previous");
+    const nextButton = document.querySelector(".button--next");
+  
+    // Event listeners
+    prevButton.addEventListener("click", () => handleClick("previous"));
+    nextButton.addEventListener("click", () => handleClick("next"));
+});

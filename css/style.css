@@ -195,8 +195,6 @@ nav li:first-child{
 
 
 @font-face {
-    font-family:'Keep calm';
-    src: url(../fonts/keep_calm/KeepCalm-Medium.ttf);
     font-family: 'Source Sans';
     src: url(../fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
 }
@@ -205,16 +203,15 @@ body{
     font-family:'Source Sans';
 }
 
-
-h1{
-    font-family: 'Keep calm';
-}
-
 /*FORSIDE*/
 /*Styling af quote på forsiden*/
 .quote img{
     width: 100%;
     margin-top: 3rem;
+}
+
+.frontPageQuote {
+    width: 100%;
 }
 
 /*Sætter billeder på en række*/
@@ -242,11 +239,16 @@ h1{
     margin-bottom: 5rem;
 }
 
+.guidesLink {
+    text-decoration: none;
+    color: white;
+}
+
 /*Styler tekstboks ovenpå foto*/
 .note{
     background-color: #F89406;
     color: #ffffff;
-    width: 200px;
+    width: 300px;
     height: 39px;
     font-size: 18px;
     display: flex;
@@ -259,7 +261,7 @@ h1{
 
 .anmeldelse{
     background-color: #F89406;
-    width:75%;
+    width:78%;
     padding: 2rem;
     margin-bottom: 2rem;
     margin-left: 1.3rem;
@@ -315,6 +317,179 @@ h1{
     bottom:15px;
     display: flex;
     justify-content: center;
+}
+
+
+/*Opskrift*/
+/*section one: cake images and text*/
+.cake {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 5%;
+}
+
+.cheesecake {
+    font-weight: bold;
+    font-size: 250%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+
+.item-1 {
+    margin-left: 20%;
+}
+
+.item-2 {
+    margin-right: 20%;
+}
+
+.thin-line, .thin-line-1 {
+    border-bottom: 2px solid #F89406;
+    margin: 2% 5%;
+}
+
+/*section 2: ingrediens*/
+
+h2 {
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 1% ;
+}
+
+.ingrediens {
+    margin-left: 10%;
+    padding-bottom: 2%;
+    list-style: none;
+
+}
+
+a {
+    padding: 1%
+}
+
+/*Section 3: slik gjør du*/
+
+.description {
+    margin-left: 10%;
+    padding: 2%;
+
+}
+
+/*media for opskrifter*/
+@media screen and (min-width:1024px) {
+    .desk {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .section-2, .section-3 {
+        flex: 1;
+    
+    }
+
+    li {
+        padding-top: 2%;
+    }
+
+    .thin-line-1 {
+        display: none;
+    }
+
+/*makes the foto bigger*/
+.cake-img {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 1100px;
+}
+
+.cake-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+
+}
+
+.cheesecake {
+    margin: 1%;
+    display: flex;
+
+   
+}
+
+.text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.item-1, .item-2 {
+    font-size: 120%;
+}
+
+/*produktlinje*/
+    
+.text-2 h3 {
+    font-size: 140%;
+   
+}
+
+.text-2 .price {
+    font-size: 160%;
+    margin-left: 3%;
+}
+
+}
+
+
+/*section 4: produktlinje*/
+
+p {
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.text-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    gap: 4%;
+
+}
+
+.text-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bodylab {
+    order: 3;
+}
+
+h3 {
+    font-weight: normal;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 100%;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 7%;
+    padding-bottom: 10%;
+    
 }
 
 
@@ -491,8 +666,6 @@ h4{
 
 }
 
-
-
 /*Tablet*/
 @media(min-width: 768px) and (max-width:1023px){
     .hideOnMobile {
@@ -542,9 +715,6 @@ h4{
         width: 82%;
         margin-left: 2.5rem;
     }
-    .quote{
-        margin-top: 2rem;
-    }
     
 /* Media query på guide siderne */
     .billedrække{
@@ -569,23 +739,26 @@ h4{
     }
 }
 
-/*-------------------KARUSSEL TEEEEEEEEEST-------------------*/
+/*------- KARUSSEL -------*/
+
+.frontPageh2 {
+    margin-left: 10%;
+}
 
 .photoList {
     display: flex;
     gap: 8px;
     padding: 16px;
     margin: 20px;
-  
     list-style: none;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 
     /* Hide scrollbar in Firefox */
-  scrollbar-width: none;
+    scrollbar-width: none;
 
-  /* Hide scrollbar in IE and Edge */
-  -ms-overflow-style: none;
+    /* Hide scrollbar in IE and Edge */
+    -ms-overflow-style: none;
   }
 
   
@@ -598,9 +771,7 @@ h4{
     flex-shrink: 0;
     width: 40%;
     height: 20vh;
-  
     background-color: #FFF;
-  
     scroll-snap-align: center;
   }
   
@@ -625,23 +796,22 @@ h4{
     position: relative;
   }
 
+  /*Buttons*/
   .button {
     position: absolute;
     top: 50%;
-  
+    transform: translate(-50%);
     width: 3rem;
     height: 3rem;
-  
-    transform: translateY(-50%);
   }
   
   .button--previous {
     left: 1.5rem;
-  
-    transform: rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
   }
   
   .button--next {
     right: 1.5rem;
+    transform: translate(-50%, -50%);
   }
   
