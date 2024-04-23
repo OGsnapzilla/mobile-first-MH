@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const prevButton = document.querySelector(".button--previous");
     const nextButton = document.querySelector(".button--next");
   
-    // Event listeners
+    //Event listeners
     prevButton.addEventListener("click", () => handleClick("previous"));
     nextButton.addEventListener("click", () => handleClick("next"));
 });
